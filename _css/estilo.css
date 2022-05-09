@@ -14,6 +14,7 @@ body{
     width: 1050px;
    height: 1050px;
     margin: 0 auto;
+    
 }
 
 
@@ -23,13 +24,15 @@ body{
     height: 187px;
     background: #000;
     color: aliceblue;
+    
 
 }
 
 #link{
     width: 150px;
     height: 800px;
-    background-color: red;
+    background-color: #e68e65 ;
+    
     
 }
 
@@ -39,15 +42,17 @@ body{
     margin-top: -800px;
     margin-left: 150px;
     background: blue;
-    text-align: center;
+    
 
 }
 
 #footer{
     width: 99.5%;
     height: 50px;
-   border: solid;
    color: rgb(7, 7, 7);
+   position: relative;
+   left: 45%;
+   top: 10px;
     
 }
     
@@ -57,5 +62,44 @@ body{
 }
 
 #video{
-    margin-top: 30%;
+    width: 100%;
+    height: 100%;
 }
+
+a{
+    color: rgb(253, 250, 250);
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    position: relative;
+    left: 20px;
+    top: 10px;
+    
+    
+    
+}
+   
+    
+    
+
+a:hover{
+    color: aqua;
+    background: white;
+
+}
+
+#conteudo{
+    
+    background: rgb(231, 213, 213);
+    box-shadow: 5px 5px 5px  rgb(5, 5, 5);
+    padding: 5px;
+    position: relative ;
+    top: 30px;
+    left: 9.5px;
+    font: normal arial 5px;
+    width: 120px;
+    height: 180;
+    
+    
+}
+
